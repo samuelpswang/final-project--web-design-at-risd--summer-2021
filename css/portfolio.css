@@ -1,0 +1,136 @@
+body {
+    /* background properties */
+    background-color: #fafafa;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* text properties  */
+    font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+    color: #111;
+}
+
+nav {
+    margin: 5% auto 5% auto;
+}
+
+a {
+    margin-left: 24px;
+    color: #111;
+}
+
+.nav__left {
+    margin-left: 0;
+    font-family: "Roboto Mono", "Courier", monospace;
+    font-weight: 700;
+}
+
+.nav__right {
+    float: right;
+}
+
+h1 {
+    margin: 0 0 64px 0;
+    font-size: 4vw;
+    font-family: "Roboto Mono", "Courier", monospace;
+}
+
+h2 {
+    margin: 48px 0 16px 0;
+    font-size: 2vw;
+    font-family: "Roboto Mono", "Courier", monospace;
+    font-weight: 700;
+}
+
+.sub {
+    text-align: center;
+}
+
+h3 {
+    margin: 8px 0 16px 0;
+    font-size: 2vw;
+    font-family: "Roboto Mono", "Courier", monospace;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+p {
+    margin: 16px 0 16px 0;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.intro {
+    margin-bottom: 64px;
+}
+
+.dummy {
+    margin: 16px 16px 16px 0;
+    width: 40%;
+    aspect-ratio: 1;
+    background-color: lightgray;
+    vertical-align: middle;
+}
+.mid {
+    margin-top: 0;
+    padding-top: 49%;
+    text-align: center;
+    font-family: "Roboto Mono", "Courier", monospace;
+    font-weight: 700;
+}
+
+.hover {
+    display: none;
+}
+
+.dummy:hover .hover {
+    margin-top: -16px;
+    width: 100%;
+    aspect-ratio: 1;
+    background: #ddd;
+    display: block;
+}
+
+.content {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.sub-header {
+    padding-top: 49%;
+    text-align: center;
+    font-family: "Roboto Mono", "Courier", monospace;
+    font-weight: 700;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    margin-right: 0;
+    margin-top: 16px;
+    color: #eee;
+    background-color: #111;
+    font-family: "Roboto Mono", "Courier", monospace;
+}
+
+.dummy:hover .mid {
+    display: none;
+}
+
+.left {
+    display: inline-block;
+}
+
+.right {
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    margin: 5% auto 5% auto;
+    text-align: center;
+}

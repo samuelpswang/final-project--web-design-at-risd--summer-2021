@@ -17,7 +17,6 @@ a {
     color: #111;
 }
 
-
 .nav__left {
     margin-left: 0;
     font-family: "Roboto Mono", "Courier", monospace;
@@ -25,19 +24,12 @@ a {
 }
 
 .nav__right {
-    display: inline-block;
     float: right;
 }
 
 h1 {
     margin: 0 0 16px 0;
-    font-size: 7vw;
-    font-family: "Roboto Mono", "Courier", monospace;
-}
-
-h2 {
-    margin: 16px 0 16px 0;
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: "Roboto Mono", "Courier", monospace;
 }
 
@@ -46,20 +38,39 @@ p {
     line-height: 1.8;
 }
 
-.home__left-elem {
+.instructions {
+    width: 40%;
+    padding-right: 64px;
     float: left;
-    filter: grayscale(100%);
 }
 
-.home__right-elem {
-    width: 65%;
-    height: 42.3%;
+.form {
+    width: 40%;
+    margin-top: 40px;
+    display: inline-block;
+    padding-left: 40px;
+    border-left: 1px #111;
+}
+
+.legend {
+    margin-bottom: 0;
+}
+
+input {
+    width: 97%;
+}
+
+.message {
+    height: 60px;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    margin-right: 0;
+    margin-top: 16px;
     float: right;
-    padding-left: 18px;
-    border-left: 1px solid black;
-}
-
-.push-right {
-    padding-left: 24px;
-    padding-right: 24px;
+    color: #eee;
+    background-color: #111;
+    font-family: "Roboto Mono", "Courier", monospace;
 }
